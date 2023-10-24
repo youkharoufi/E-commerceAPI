@@ -14,5 +14,21 @@ namespace E_commerce.Data
 
     public DbSet<Product> Products { get; set; }
 
+    public DbSet<Cart> cart { get; set; }
+
+    public DbSet<CartItems> cartItems { get; set; }
+
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+
+            builder.Entity<Cart>()
+                .HasOne(c=> c.User)
+                .WithMany()
+                .HasForeignKey(cart => cart.UserId)
+                .OnDelete(DeleteBehavior.Restrict); 
+        }
+
     }
 }
