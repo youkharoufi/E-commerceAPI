@@ -96,11 +96,11 @@ namespace E_commerce.Controllers
             cart.TotalPrice = total;
 
             await _context.SaveChangesAsync();
-            return Ok(cart);
+            return Ok(total);
         }
 
         [HttpDelete("delete-cart-item/{itemId}")]
-        public async Task<ActionResult> deleteCartItem(int itemId)
+        public async Task<ActionResult<CartItems>> deleteCartItem(int itemId)
         {
             try
             {
@@ -113,7 +113,7 @@ namespace E_commerce.Controllers
 
                 await _context.SaveChangesAsync();
 
-                return Ok("Item deleted");
+                return Ok(item);
 
             }
             catch (Exception ex)
