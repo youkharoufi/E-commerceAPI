@@ -46,10 +46,10 @@ using(var scope = app.Services.CreateScope())
     var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
     var context = scope.ServiceProvider.GetRequiredService<DataContext>();
 
-    context.Database.Migrate();
 
     try
     {
+        context.Database.Migrate();
         await SeedData.SeedDataAsync(context, userManager);
 
     }catch(Exception ex)
