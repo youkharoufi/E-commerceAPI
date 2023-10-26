@@ -50,7 +50,7 @@ using(var scope = app.Services.CreateScope())
 
     try
     {
-        SeedData.SeedDataAsync(context, userManager);
+        await SeedData.SeedDataAsync(context, userManager);
 
     }catch(Exception ex)
     {
