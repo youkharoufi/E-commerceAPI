@@ -32,7 +32,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
 
 app.UseRouting();
 
@@ -41,7 +40,13 @@ app.UseCors(builder => builder.AllowAnyHeader().AllowAnyMethod().AllowCredential
 app.UseAuthentication();
 app.UseAuthorization();
 
-using(var scope = app.Services.CreateScope())
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
+app.MapControllers();
+
+
+using (var scope = app.Services.CreateScope())
 {
     var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
     var context = scope.ServiceProvider.GetRequiredService<DataContext>();
@@ -58,6 +63,5 @@ using(var scope = app.Services.CreateScope())
     }
 }
 
-app.MapControllers();
 
 app.Run();

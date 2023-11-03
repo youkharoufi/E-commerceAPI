@@ -1,6 +1,8 @@
 ﻿using E_commerce.Data;
 using E_commerce.Token;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using MongoDB.Driver;
 
 namespace E_commerce.ServiceExtensions
 {
@@ -14,6 +16,7 @@ namespace E_commerce.ServiceExtensions
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
                 options.EnableSensitiveDataLogging();
             });
+
 
             services.AddScoped<ITokenService, TokenService>();
 

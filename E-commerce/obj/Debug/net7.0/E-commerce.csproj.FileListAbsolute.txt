@@ -86,3 +86,16 @@ C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\Microsof
 C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\AWSSDK.Core.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\DnsClient.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\MongoDB.Bson.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\MongoDB.Driver.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\MongoDB.Driver.Core.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\SharpCompress.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\Snappier.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
