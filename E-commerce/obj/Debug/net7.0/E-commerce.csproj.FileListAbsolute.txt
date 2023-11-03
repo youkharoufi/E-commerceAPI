@@ -99,3 +99,9 @@ C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\ZstdShar
 C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\KharoufiY\.NET Projects\E-commerce\E-commerce\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
